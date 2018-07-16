@@ -6,14 +6,16 @@ import Header from '../components/header'
 import './index.scss'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div id="page">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <html lang="pl" />
+    </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
