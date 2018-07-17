@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 .header#header {
-  background-color: #fcfcfc;
-  border-bottom: 1px solid #c1c1c1;
+  background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+  border-bottom: 1px solid #f1b76b;
 }
 
 .header {
@@ -20,7 +20,7 @@
       .header__menu-top-item {
         padding: 0.6em 0.4em 0.6em 0.4em;
         margin:0 18px 0 18px;
-        border-left: 1px solid #c1c1c1;
+        border-left: 1px solid #f1b76b;
 
         .header__menu-top-item-link {
           font-family: 'Montserrat', sans-serif;
