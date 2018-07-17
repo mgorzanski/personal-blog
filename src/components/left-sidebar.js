@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+
 import profilePicture from './../images/profile-picture.jpg';
 import "./sidebar.scss";
 
@@ -12,6 +15,7 @@ class LeftSidebar extends React.Component {
         <p className="sidebar__text" id="profile-picture-description">
           {profilePictureDescription}
         </p>
+        <p className="sidebar__link"><a href="#">MORE <FontAwesomeIcon icon={faAngleDoubleRight} size="md" className="sidebar__link-icon" /></a></p>
       </div>
     );
   }

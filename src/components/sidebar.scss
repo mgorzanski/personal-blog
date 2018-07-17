@@ -21,6 +21,7 @@
   .sidebar__text#profile-picture-description {
     font-weight: 700;
     margin-top:10px;
+    margin-bottom:2px;
   }
 
   .sidebar__menu {
@@ -59,6 +60,20 @@
     padding: 1px 2px 1px 2px;
     color: #333333;
     border:0;
+  }
+
+  .sidebar__link {
+    margin:0;
+    padding:0;
+  }
+
+  .sidebar__link a {
+    color:#000;
+    text-decoration: none;
+  }
+
+  .sidebar__link-icon {
+    padding-bottom:2px;
   }
 
 }
