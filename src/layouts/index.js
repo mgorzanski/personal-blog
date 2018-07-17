@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import LeftSidebar from './../components/left-sidebar'
+import RightSidebar from './../components/right-sidebar'
 import './index.scss'
 
 const Layout = ({ children, data }) => (
@@ -17,15 +19,18 @@ const Layout = ({ children, data }) => (
       <html lang="pl" />
     </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+    <div className="container-fluid" id="page-content">
+      <div className="row">
+        <div className="col-xl-2">
+          <LeftSidebar />
+        </div>
+        <div className="col">
+          <main id="main">{children()}</main>
+        </div>
+        <div className="col-xl-auto">
+          <RightSidebar />
+        </div>
+      </div>
     </div>
   </div>
 )

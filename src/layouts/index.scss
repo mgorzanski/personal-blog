@@ -1,2 +1,24 @@
 @import "./../styles/custom";
 @import "~bootstrap/scss/bootstrap";
+
+.container-fluid#page-content {
+  margin-top:47px;
+}
+
+@include media-breakpoint-up(sm) {
+
+}
+
+@include media-breakpoint-up(md) {
+  
+}
+
+@include media-breakpoint-up(lg) {
+  
+}
+
+@include media-breakpoint-up(xl) {
+  .container-fluid#page-content {
+    width: 1550px;
+  }
+}
