@@ -1,8 +1,15 @@
 @import "./../styles/custom";
 @import "~bootstrap/scss/bootstrap";
 
+#page {
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
 .container-fluid#page-content {
   margin-top:47px;
+  flex: 1 0 auto;
 }
 
 @include media-breakpoint-up(sm) {

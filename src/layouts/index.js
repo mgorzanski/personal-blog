@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import LeftSidebar from './../components/left-sidebar'
 import RightSidebar from './../components/right-sidebar'
+import Footer from './../components/footer'
 import './index.scss'
 
 const Layout = ({ children, data }) => (
@@ -32,6 +33,7 @@ const Layout = ({ children, data }) => (
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 )
 
