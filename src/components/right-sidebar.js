@@ -20,7 +20,7 @@ class RightSidebar extends React.Component {
 
         <div className="sidebar__separator"></div>
 
-        <h4 className="sidebar__label">Search website</h4>
+        <h4 className="sidebar__label">Szukaj na blogu</h4>
         <div className="sidebar__search-form">
           <form action="" method="get">
             <FontAwesomeIcon icon={faSearch} size="md" color="white" />

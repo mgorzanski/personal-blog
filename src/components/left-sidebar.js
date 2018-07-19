@@ -12,10 +12,11 @@ class LeftSidebar extends React.Component {
     return (
       <div className="sidebar" id="left-sidebar">
         <img className="img-fluid rounded" id="profile-picture" src={profilePicture} alt="Mateusz Górzański" />
+        <h4 className="sidebar__full-name">Mateusz Górzański</h4>
         <p className="sidebar__text" id="profile-picture-description">
           {profilePictureDescription}
         </p>
-        <p className="sidebar__link"><a href="#">MORE <FontAwesomeIcon icon={faAngleDoubleRight} size="md" className="sidebar__link-icon" /></a></p>
+        <p className="sidebar__link"><a href="#">Więcej <FontAwesomeIcon icon={faAngleDoubleRight} size="md" className="sidebar__link-icon" /></a></p>
       </div>
     );
   }
