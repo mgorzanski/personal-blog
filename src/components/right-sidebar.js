@@ -23,7 +23,7 @@ class RightSidebar extends React.Component {
         <h4 className="sidebar__label">Szukaj na blogu</h4>
         <div className="sidebar__search-form">
           <form action="" method="get">
-            <FontAwesomeIcon icon={faSearch} size="md" color="white" />
+            <FontAwesomeIcon icon={faSearch} color="white" />
             <input type="search" name="q" className="sidebar__search-form-input" />
           </form>
         </div>
