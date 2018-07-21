@@ -3,6 +3,7 @@
 .footer {
   display:flex;
   align-content: flex-end;
+  min-height: 40px;
 
   .footer__copyright-text {
     width:100vw;

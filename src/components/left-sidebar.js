@@ -16,7 +16,7 @@ class LeftSidebar extends React.Component {
         <p className="sidebar__text" id="profile-picture-description">
           {profilePictureDescription}
         </p>
-        <p className="sidebar__link"><a href="#">Więcej <FontAwesomeIcon icon={faAngleDoubleRight} className="sidebar__link-icon" /></a></p>
+        <p className="sidebar__link"><a href="https://mgorzanski.github.io/about-me/">Więcej <FontAwesomeIcon icon={faAngleDoubleRight} className="sidebar__link-icon" /></a></p>
       </div>
     );
   }
